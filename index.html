@@ -4,45 +4,101 @@
 	<title>Masteralb</title>
 	<meta charset="utf-8">
 	<link rel="icon" href="img/logo.png">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
 	<section class="container">
 		<div class="row">
 			<div class="col-12 brand-1">
-				<img src="img/logo.png" class="brand-img">
-				<div class="brand-text">
-					<h1 class="brand-text-head">masteralb</h1>
-					<p class="brand-text-p">creative</p>
-					<p class="adress-sm">www.masteralb.com</p>
+				<img src="img/logo.png" class="brand-1-img">
+				<div class="brand-1-text">
+					<h1 class="brand-1-text-head">masteralb</h1>
+					<p class="brand-1-text-p">creative</p>
+					<p class="adress-1-sm">www.masteralb.com</p>
 				</div>				
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-6">
-				<h2 class="form-head">Register Form</h2>
-				<div class="board-lg">
-					<form>
-						
-					</form>
+				<h2 class="form-head-lg">Register Form</h2>
+				<div class="shadow-lg">
+					<div class="board-lg">
+						<form>
+							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Username">
+							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="password" placeholder="Password">
+							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="confirm-password" placeholder="Confirm Password">
+							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Email">
+							<i class="fa fa-map-marker" aria-hidden="true"></i><input list="location" name="your-location" placeholder="Your Location">
+							<datalist id="location">
+								<option>Poznań</option>
+								<option>Warszawa</option>
+								<option>Białystok</option>
+								<option>Wrocław</option>
+								<option>Katowice</option>
+							</datalist>
+							<input type="checkbox" name="terms-of-use">I have read and accept the terms of use.
+							<input type="submit" value="Sign In">
+						</form>
+					</div>
 				</div>
-				<h2 class="form-head">Send Email</h2>
-				<div class="board-lg"></div>
+				<h2 class="form-head-lg">Send Email</h2>
+				<div class="shadow-lg">
+					<div class="board-lg">
+						<form>
+							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Your Name">
+							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Your Email">
+							<textarea name="message" rows="10" cols="30" placeholder="Type your message..."></textarea>
+							<input type="checkbox" name="terms-of-use">Send a copy to my Email.
+							<input type="submit" value="Send Email">
+						</form>
+					</div>
+				</div>
 			</div>
 			<div class="col-6">
 				<h2 class="form-head">Sign In Form</h2>
-				<div class="board-md"></div>
-				<h2 class="form-head">Recover Form</h2>
-				<div class="board-md"></div>
-				<h2 class="form-head">Subscribe Form</h2>
-				<div class="board-sm"></div>
-				<div class="brand-2">
-					<img src="img/logo.png" class="brand-img">
-					<div class="brand-text">
-						<h2 class="brand-text-head">masteralb</h2>
-						<p class="brand-text-p">creative</p>
-						<p class="adress-sm">www.masteralb.com</p>
+				<div class="shadow-md">
+					<div class="board-md">
+						<form>
+							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Username">
+							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="password" placeholder="Password">
+							<input type="checkbox" name="terms-of-use">Remember me
+							<input type="submit" value="Sign In">
+						</form>
 					</div>
+				</div>
+				<h2 class="form-head">Recover Form</h2>
+				<div class="shadow-md">
+					<div class="board-md">
+						<form>
+							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Enter your Email">
+							<i class="fa fa-mobile" aria-hidden="true"></i><input type="tel" name="phone-number" placeholder="Enter your Phone number">
+							<input type="submit" value="Send">
+							<input type="submit" value="Done">
+
+						</form>
+					</div>
+				</div>
+				<h2 class="form-head">Subscribe Form</h2>
+				<div class="shadow-sm">
+					<div class="board-sm">
+						<form>
+							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Enter your Email">
+							<input type="submit" value="Subscribe">
+							<input type="submit" value="No, Thanks">
+
+						</form>
+					</div>
+				</div>
+				<div class="brand-2">
+					<div class="brand-contain">
+						<img src="img/logo.png" class="brand-2-img">
+						<div class="brand-2-text">
+							<h2 class="brand-2-text-head">masteralb</h2>
+							<p class="brand-2-text-p">creative</p>
+							<p class="adress-2-sm">www.masteralb.com</p>
+						</div>
+					</div>					
 					<h3 class="adress-lg">www.masteralb.com</h3>
 				</div>
 				
