@@ -74,23 +74,25 @@ body {
 	width: 120px;
 	height: 120px;
 	object-fit: center;
-	opacity: 0.3;
+	opacity: 0.4;
+	margin-left: 30px;
 }
 .brand-1-text {
-	margin-left: 30px;
+	margin-left: 20px;
 	font-family: "Baloo Bhai", sans-serif;
-	line-height: 50px;
-	color: rgba(0, 0, 0, 0.3);
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.4);
+	text-shadow: -5px -5px 1px #000;
 }
 .brand-1-text-head {
-	font-size: 70px;
+	font-size: 60px;
 	margin: 0;
 	letter-spacing: 2px;
 	
 }
 .brand-1-text-p {
 	margin: 0;
-	font-size: 35px;
+	font-size: 30px;
 	line-height: 25px;
 }
 .adress-1-sm {
@@ -101,7 +103,11 @@ body {
 .col-6 {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-end;
+}
+.second-col {
+	margin-top: 5px;
+	align-items: flex-start;
 }
 [class*="form-head"] {
 	font-size: 30px;
@@ -110,9 +116,16 @@ body {
 	text-align: center;
 	width: 420px; 
 	text-shadow: 2px 2px 2px #000;
+	margin-bottom: 12px;
 }
 .form-head-lg {
-	
+	margin-right: 32.5px;
+	margin-top: 32px;
+}
+.form-head-md,
+.form-head-sm {
+	margin-left: 32.5px;
+	margin-top: 30px;
 }
 [class*="board-"] {
 	background-color: #fff;
@@ -123,11 +136,11 @@ body {
 .shadow-lg {
 	position: relative;
 	width: 420px;
-	height: 538px;
+	height: 535px;
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
-	/*margin-left: 60px;
-	margin-right: 35px;*/
+	
+	margin-right: 32.5px;
 }
 
 .board-lg {
@@ -139,12 +152,12 @@ body {
 }
 .shadow-md {
 	width: 420px;
-	height: 258px;
+	height: 255px;
 	background-color: rgba(0, 0, 0, 0.2);
 	position: relative;
 	border-radius: 5px;
-	/*margin-right: 60px;
-	margin-left: 35px;*/
+	
+	margin-left: 32.5px;
 }
 .board-md {
 	width: 380px;
@@ -155,12 +168,12 @@ body {
 }
 .shadow-sm {
 	width: 420px;
-	height: 198px;
+	height: 195px;
 	background-color: rgba(0, 0, 0, 0.2);
 	position: relative;
 	border-radius: 5px;
-	/*margin-right: 60px;
-	margin-left: 35px;*/
+	
+	margin-left: 32.5px;
 }
 .board-sm {
 	width: 380px;
