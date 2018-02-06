@@ -11,7 +11,9 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-12 brand-1">
-				<img src="img/logo.png" class="brand-1-img">
+				<div class="shadow-1-img">
+					<img src="img/logo.png" class="brand-1-img">
+				</div>
 				<div class="brand-1-text">
 					<h1 class="brand-1-text-head">masteralb</h1>
 					<p class="brand-1-text-p">creative</p>
@@ -25,11 +27,31 @@
 				<div class="shadow-lg">
 					<div class="board-lg">
 						<form>
-							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Username">
-							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="password" placeholder="Password">
-							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="confirm-password" placeholder="Confirm Password">
-							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Email">
-							<i class="fa fa-map-marker" aria-hidden="true"></i><input list="location" name="your-location" placeholder="Your Location">
+							<div class="input-border">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="text" name="username" placeholder="Username">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-lock" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="password" name="password" placeholder="Password">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-lock" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="password" name="confirm-password" placeholder="Confirm Password">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" list="location" name="your-location" placeholder="Your Location">
+							</div>
 							<datalist id="location">
 								<option>Poznań</option>
 								<option>Warszawa</option>
@@ -38,19 +60,27 @@
 								<option>Katowice</option>
 							</datalist>
 							<input type="checkbox" name="terms-of-use">I have read and accept the terms of use.
-							<input type="submit" value="Sign In">
+							<input class="btn btn-lg" type="submit" value="Sign up">
 						</form>
 					</div>
 				</div>
 				<h2 class="form-head-lg">Send Email</h2>
-				<div class="shadow-lg">
-					<div class="board-lg">
+				<div class="shadow-xl">
+					<div class="board-xl">
 						<form>
-							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Your Name">
-							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Your Email">
+							<div class="input-border">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="text" name="username" placeholder="Your Name">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="email" name="email" placeholder="Your Email">
+							</div>
 							<textarea name="message" rows="10" cols="30" placeholder="Type your message..."></textarea>
 							<input type="checkbox" name="terms-of-use">Send a copy to my Email.
-							<input type="submit" value="Send Email">
+							<input class="btn btn-lg" type="submit" value="Send Email">
 						</form>
 					</div>
 				</div>
@@ -60,10 +90,18 @@
 				<div class="shadow-md">
 					<div class="board-md">
 						<form>
-							<i class="fa fa-user" aria-hidden="true"></i><input type="text" name="username" placeholder="Username">
-							<i class="fa fa-lock" aria-hidden="true"></i><input type="password" name="password" placeholder="Password">
+							<div class="input-border">
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="text" name="username" placeholder="Username">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-lock" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="password" name="password" placeholder="Password">
+							</div>
 							<input type="checkbox" name="terms-of-use">Remember me
-							<input type="submit" value="Sign In">
+							<input class="btn btn-sm-1" type="submit" value="Sign in">
 						</form>
 					</div>
 				</div>
@@ -71,10 +109,18 @@
 				<div class="shadow-md">
 					<div class="board-md">
 						<form>
-							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Enter your Email">
-							<i class="fa fa-mobile" aria-hidden="true"></i><input type="tel" name="phone-number" placeholder="Enter your Phone number">
-							<input type="submit" value="Send">
-							<input type="submit" value="Done">
+							<div class="input-border">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="email" name="email" placeholder="Enter your Email">
+							</div>
+							<div class="input-border">
+								<i class="fa fa-mobile" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="tel" name="phone-number" placeholder="Enter your Phone number">
+							</div>
+							<input class="btn btn-sm" type="submit" value="Send">
+							<input class="btn btn-sm-light" type="submit" value="Done">
 
 						</form>
 					</div>
@@ -83,16 +129,22 @@
 				<div class="shadow-sm">
 					<div class="board-sm">
 						<form>
-							<i class="fa fa-envelope" aria-hidden="true"></i><input type="email" name="email" placeholder="Enter your Email">
-							<input type="submit" value="Subscribe">
-							<input type="submit" value="No, Thanks">
+							<div class="input-border">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span class="input-line">|</span>
+								<input class="input-content" type="email" name="email" placeholder="Enter your Email">
+							</div>
+							<input class="btn btn-sm" type="submit" value="Subscribe">
+							<input class="btn btn-sm-red" type="submit" value="No, Thanks">
 
 						</form>
 					</div>
 				</div>
 				<div class="brand-2">
 					<div class="brand-contain">
-						<img src="img/logo.png" class="brand-2-img">
+						<div class="shadow-2-img">
+							<img src="img/logo.png" class="brand-2-img">
+						</div>
 						<div class="brand-2-text">
 							<h2 class="brand-2-text-head">masteralb</h2>
 							<p class="brand-2-text-p">creative</p>
