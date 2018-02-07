@@ -59,7 +59,13 @@
 								<option>Wrocław</option>
 								<option>Katowice</option>
 							</datalist>
-							<input type="checkbox" name="terms-of-use">I have read and accept the terms of use.
+							<div class="checkbox">
+								<input type="checkbox" name="terms-of-use" id="checkbox-button-1">
+								<label for="checkbox-button-1" class="btn btn-checkbox-1">
+								</label>
+								<p class="checkbox-p">I have read and accept the terms of use.</p>
+							</div>
+							
 							<input class="btn btn-lg" type="submit" value="Sign up">
 						</form>
 					</div>
@@ -78,8 +84,13 @@
 								<span class="input-line">|</span>
 								<input class="input-content" type="email" name="email" placeholder="Your Email">
 							</div>
-							<textarea name="message" rows="10" cols="30" placeholder="Type your message..."></textarea>
-							<input type="checkbox" name="terms-of-use">Send a copy to my Email.
+							<textarea class="email-text" name="message" rows="15" cols="45" placeholder="Type your message..."></textarea>
+							<div class="checkbox">
+								<input type="checkbox" name="send-a-copy" id="checkbox-button-2">
+								<label for="checkbox-button-2" class="btn btn-checkbox-2">
+								</label>
+								<p class="checkbox-p">Send a copy to my Email.</p>
+							</div>
 							<input class="btn btn-lg" type="submit" value="Send Email">
 						</form>
 					</div>
@@ -100,8 +111,16 @@
 								<span class="input-line">|</span>
 								<input class="input-content" type="password" name="password" placeholder="Password">
 							</div>
-							<input type="checkbox" name="terms-of-use">Remember me
-							<input class="btn btn-sm-1" type="submit" value="Sign in">
+							<div class="sign-in-checkbox">
+								<div class="checkbox">
+									<input type="checkbox" name="remember-me" id="checkbox-button-3">
+									<label for="checkbox-button-3" class="btn btn-checkbox-3">										
+									</label>
+									<p class="checkbox-p">Remember me</p>
+								</div>								
+								<input class="btn btn-sm-1" type="submit" value="Sign in">
+							</div>
+							
 						</form>
 					</div>
 				</div>
@@ -119,9 +138,10 @@
 								<span class="input-line">|</span>
 								<input class="input-content" type="tel" name="phone-number" placeholder="Enter your Phone number">
 							</div>
-							<input class="btn btn-sm" type="submit" value="Send">
-							<input class="btn btn-sm-light" type="submit" value="Done">
-
+							<div class="btn-group">
+								<input class="btn btn-sm" type="submit" value="Send">
+								<input class="btn btn-sm-light" type="submit" value="Done">
+							</div>
 						</form>
 					</div>
 				</div>
@@ -134,9 +154,10 @@
 								<span class="input-line">|</span>
 								<input class="input-content" type="email" name="email" placeholder="Enter your Email">
 							</div>
-							<input class="btn btn-sm" type="submit" value="Subscribe">
-							<input class="btn btn-sm-red" type="submit" value="No, Thanks">
-
+							<div class="btn-group">
+								<input class="btn btn-sm" type="submit" value="Subscribe">
+								<input class="btn btn-sm-red" type="submit" value="No, Thanks">
+							</div>
 						</form>
 					</div>
 				</div>
