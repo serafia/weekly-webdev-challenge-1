@@ -118,7 +118,6 @@ button, input, textarea {
 	letter-spacing: 2px;
 	color: rgba(206, 15, 7, 0.6);	
 	text-shadow: -1px -2px 1px rgba(0, 0, 0, 0.5);
-	font-weight: bold;
 	font-family: "Arista 2.0 Regular", sans-serif;
 }
 .brand-1-text-p {
@@ -127,6 +126,7 @@ button, input, textarea {
 	line-height: 18px;
 	color: #A40605;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+	font-family: "Arista 2.0 Light", sans-serif;
 	
 }
 .adress-1-sm {
