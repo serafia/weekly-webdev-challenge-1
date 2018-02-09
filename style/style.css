@@ -485,10 +485,11 @@ button, input, textarea {
 	font-weight: normal;
 }
 
-/* media quaries */
-@media (max-width: 575px) {
 
-}
+
+
+/* media quaries */
+
 @media (max-width: 767px) {
 	
 	/* grid */
@@ -520,6 +521,9 @@ button, input, textarea {
 	.brand-1-text-p {
 		font-size: 20px;
 		line-height: 5px;
+	}
+	.adress-1-sm {
+		line-height: 15px;
 	}
 
 
