@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
 
+
+@font-face {
+	font-family: Arista-Light;
+	src: url(../arista_2_0/Arista2.0-LightTrial.ttf);
+}
+@font-face {
+	font-family: Arista-Regular;
+	src: url(../arista_2_0/Arista2.0-RegularTrial.ttf);
+}
 /* general classes */
 
 body {
@@ -108,7 +117,7 @@ button, input, textarea {
 }
 .brand-1-text {
 	margin-left: 20px;
-	font-family: "Arista 2.0 Light", sans-serif;
+	font-family: "Arista-Light", sans-serif;
 	line-height: 40px;
 	
 }
@@ -118,15 +127,14 @@ button, input, textarea {
 	letter-spacing: 2px;
 	color: rgba(206, 15, 7, 0.6);	
 	text-shadow: -1px -2px 1px rgba(0, 0, 0, 0.5);
-	font-family: "Arista 2.0 Regular", sans-serif;
+	font-family: "Arista-Regular", sans-serif;
 }
 .brand-1-text-p {
 	margin: 0;
 	font-size: 30px;
-	line-height: 18px;
+	line-height: 21px;
 	color: #A40605;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
-	font-family: "Arista 2.0 Light", sans-serif;
 	
 }
 .adress-1-sm {
@@ -457,7 +465,7 @@ button, input, textarea {
 	filter: drop-shadow(-1px -2px #000);
 }
 .brand-2-text {
-	font-family: "Arista 2.0 Light", sans-serif;
+	font-family: "Arista-Light", sans-serif;
 	line-height: 40px;
 }
 .brand-2-text-head {
@@ -465,7 +473,7 @@ button, input, textarea {
 	margin: 0;
 	letter-spacing: 2px;
 	color: rgba(0, 0, 0, 0.2);
-	font-family: "Arista 2.0 Regular", sans-serif;
+	font-family: "Arista-Regular", sans-serif;
 }
 .brand-2-text-p {
 	margin: 0;
@@ -483,9 +491,8 @@ button, input, textarea {
 .adress-lg {
 	font-size: 30px;
 	color: rgba(0, 0, 0, 0.3);
-	font-family: "Arista 2.0 Light", sans-serif;
 	margin: 20px 0 0;
-	font-weight: normal;
+	font-family: "Arista-Light", sans-serif;
 }
 
 
