@@ -26,38 +26,38 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-6 col-sm-12 first-col">
+			<div class="col-6 col-md-12 col-sm-12 first-col">
 
 <!-- Register Form -->
 
 				<h2 class="form-head-lg">Register Form</h2>
-				<div class="shadow-lg">
-					<div class="board-lg">
+				<div class="form-shadow-lg">
+					<div class="form-box-lg">
 						<form>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-user" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="text" name="username" placeholder="Username">
+								<input class="input-content" type="text" name="username" placeholder="Username" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-lock" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="password" name="password" placeholder="Password">
+								<input class="input-content" type="password" name="password" placeholder="Password" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-lock" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="password" name="confirm-password" placeholder="Confirm Password">
+								<input class="input-content" type="password" name="confirm-password" placeholder="Confirm Password" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-envelope" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="email" name="email" placeholder="Email">
+								<input class="input-content" type="email" name="email" placeholder="Email" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" list="location" name="your-location" placeholder="Your Location">
+								<input class="input-content" list="location" name="your-location" placeholder="Your Location" required>
 							</div>
 							<datalist id="location">
 								<option>Poznań</option>
@@ -67,8 +67,8 @@
 								<option>Katowice</option>
 							</datalist>
 							<div class="checkbox">
-								<input type="checkbox" name="terms-of-use" id="checkbox-button-1">
-								<label for="checkbox-button-1" class="btn-checkbox-1">
+								<input type="checkbox" name="terms-of-use" id="checkbox-button-1" required>
+								<label for="checkbox-button-1" class="btn-checkbox-1" >
 								</label>
 								<p class="checkbox-p">I have read and accept the terms of use.</p>
 							</div>							
@@ -80,20 +80,20 @@
 <!-- Send Email -->
 
 				<h2 class="form-head-lg">Send Email</h2>
-				<div class="shadow-xl">
-					<div class="board-xl">
+				<div class="form-shadow-xl">
+					<div class="form-box-xl">
 						<form>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-user" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="text" name="username" placeholder="Your Name">
+								<input class="input-content" type="text" name="username" placeholder="Your Name" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-envelope" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="email" name="email" placeholder="Your Email">
+								<input class="input-content" type="email" name="email" placeholder="Your Email" required>
 							</div>
-							<textarea class="email-text" name="message" rows="15" cols="45" placeholder="Type your message..."></textarea>
+							<textarea class="email-text" name="message" placeholder="Type your message..." required></textarea>
 							<div class="checkbox">
 								<input type="checkbox" name="send-a-copy" id="checkbox-button-2">
 								<label for="checkbox-button-2" class="btn-checkbox-2">
@@ -105,23 +105,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-sm-12 second-col">
+			<div class="col-6 col-md-12 col-sm-12 second-col">
 
 <!-- Sign In Form -->
 
 				<h2 class="form-head-md">Sign In Form</h2>
-				<div class="shadow-md">
-					<div class="board-md">
+				<div class="form-shadow-md">
+					<div class="form-box-md">
 						<form>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-user" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="text" name="username" placeholder="Username">
+								<input class="input-content" type="text" name="username" placeholder="Username" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-lock" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="password" name="password" placeholder="Password">
+								<input class="input-content" type="password" name="password" placeholder="Password" required>
 							</div>
 							<div class="sign-in-checkbox">
 								<div class="checkbox">
@@ -140,18 +140,18 @@
 <!-- Recover Form -->
 
 				<h2 class="form-head-md">Recover Form</h2>
-				<div class="shadow-md">
-					<div class="board-md">
+				<div class="form-shadow-md">
+					<div class="form-box-md">
 						<form>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-envelope" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="email" name="email" placeholder="Enter your Email">
+								<input class="input-content" type="email" name="email" placeholder="Enter your Email" required>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-mobile" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="tel" name="phone-number" placeholder="Enter your Phone number">
+								<input class="input-content" type="tel" name="phone-number" placeholder="Enter your Phone number" required>
 							</div>
 							<div class="btn-group">
 								<input class="btn btn-sm" type="submit" value="Send">
@@ -164,17 +164,17 @@
 <!-- Subscribe Form -->
 
 				<h2 class="form-head-sm">Subscribe Form</h2>
-				<div class="shadow-sm">
-					<div class="board-sm">
+				<div class="form-shadow-sm">
+					<div class="form-box-sm">
 						<form>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-envelope" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="email" name="email" placeholder="Enter your Email">
+								<input class="input-content" type="email" name="email" placeholder="Enter your Email" required>
 							</div>
 							<div class="btn-group">
 								<input class="btn btn-sm" type="submit" value="Subscribe">
-								<input class="btn btn-sm-red" type="submit" value="No, Thanks">
+								<button class="btn btn-sm-red" type="button">No, Thanks</button>
 							</div>
 						</form>
 					</div>
