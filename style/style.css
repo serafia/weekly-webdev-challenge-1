@@ -459,24 +459,24 @@ button, input, textarea {
 	font-size: 50px;
 	margin: 0;
 	letter-spacing: 2px;
-	opacity: 0.2;
+	color: rgba(0, 0, 0, 0.2);
 }
 .brand-2-text-p {
 	margin: 0;
 	font-size: 25px;
 	line-height: 15px;
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 0.3);
 	
 }
 .adress-2-sm {
 	margin: 0;
 	font-size: 10px;
 	line-height: 10px;
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 0.3);
 }
 .adress-lg {
 	font-size: 30px;
-	opacity: 0.2;
+	color: rgba(0, 0, 0, 0.3);
 	font-family: "Baloo Bhai", sans-serif;
 	margin: 20px 0 0;
 	font-weight: normal;
