@@ -108,7 +108,7 @@ button, input, textarea {
 }
 .brand-1-text {
 	margin-left: 20px;
-	font-family: "Baloo Bhai", sans-serif;
+	font-family: "Arista 2.0 Light", sans-serif;
 	line-height: 40px;
 	
 }
@@ -118,7 +118,8 @@ button, input, textarea {
 	letter-spacing: 2px;
 	color: rgba(206, 15, 7, 0.6);	
 	text-shadow: -1px -2px 1px rgba(0, 0, 0, 0.5);
-	
+	font-weight: bold;
+	font-family: "Arista 2.0 Regular", sans-serif;
 }
 .brand-1-text-p {
 	margin: 0;
@@ -126,6 +127,7 @@ button, input, textarea {
 	line-height: 18px;
 	color: #A40605;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+	
 }
 .adress-1-sm {
 	margin: 0;
@@ -455,7 +457,7 @@ button, input, textarea {
 	filter: drop-shadow(-1px -2px #000);
 }
 .brand-2-text {
-	font-family: "Baloo Bhai", sans-serif;
+	font-family: "Arista 2.0 Light", sans-serif;
 	line-height: 40px;
 }
 .brand-2-text-head {
@@ -463,6 +465,7 @@ button, input, textarea {
 	margin: 0;
 	letter-spacing: 2px;
 	color: rgba(0, 0, 0, 0.2);
+	font-family: "Arista 2.0 Regular", sans-serif;
 }
 .brand-2-text-p {
 	margin: 0;
@@ -480,7 +483,7 @@ button, input, textarea {
 .adress-lg {
 	font-size: 30px;
 	color: rgba(0, 0, 0, 0.3);
-	font-family: "Baloo Bhai", sans-serif;
+	font-family: "Arista 2.0 Light", sans-serif;
 	margin: 20px 0 0;
 	font-weight: normal;
 }
