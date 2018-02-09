@@ -432,7 +432,7 @@ button, input, textarea {
 	justify-content: flex-end;
 	margin-top: 30px;
 	width: 420px;
-	margin: 50px 35px 0;
+	margin: 50px 35px 50px;
 }
 .brand-contain {
 	display: flex;
@@ -459,20 +459,20 @@ button, input, textarea {
 	font-size: 50px;
 	margin: 0;
 	letter-spacing: 2px;
-	opacity: 0.3;
+	opacity: 0.2;
 }
 .brand-2-text-p {
 	margin: 0;
 	font-size: 25px;
 	line-height: 15px;
-	opacity: 0.2;
+	opacity: 0.3;
 	
 }
 .adress-2-sm {
 	margin: 0;
 	font-size: 10px;
 	line-height: 10px;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 .adress-lg {
 	font-size: 30px;
