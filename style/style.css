@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,600,700,800');
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
 
-/* general classess */
+/* general classes */
 
 body {
 	margin: 0;
@@ -12,7 +12,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	overflow-x: hidden;
 }
-input, textarea {
+button, input, textarea {
 	font-family: "Open Sans", sans-serif;
 }
 * {
@@ -172,14 +172,14 @@ input, textarea {
 
 
 
-/* boards */
+/* forms */
 
-[class*="board-"] {
+[class*="form-box"] {
 	background-color: #fff;
 	border-radius: 5px;
 	padding: 5px 20px 25px;
 }
-.shadow-xl {
+.form-shadow-xl {
 	position: relative;
 	width: 420px;
 	height: 535px;
@@ -187,14 +187,14 @@ input, textarea {
 	border-radius: 5px;	
 	margin-right: 32.5px;
 }
-.board-xl {
+.form-box-xl {
 	width: 380px;
 	height: 495px;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 }
-.shadow-lg {
+.form-shadow-lg {
 	position: relative;
 	width: 420px;
 	height: 458px;
@@ -202,14 +202,14 @@ input, textarea {
 	border-radius: 5px;	
 	margin-right: 32.5px;
 }
-.board-lg {
+.form-box-lg {
 	width: 380px;
 	height: 418px;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 }
-.shadow-md {
+.form-shadow-md {
 	width: 420px;
 	height: 255px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -217,14 +217,15 @@ input, textarea {
 	border-radius: 5px;	
 	margin-left: 32.5px;
 }
-.board-md {
+.form-box-md {
 	width: 380px;
 	height: 215px;
 	bottom: 20px;
 	left: 20px;
 	position: absolute;
+	padding-top: 10px;
 }
-.shadow-sm {
+.form-shadow-sm {
 	width: 420px;
 	height: 195px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -232,12 +233,13 @@ input, textarea {
 	border-radius: 5px;	
 	margin-left: 32.5px;
 }
-.board-sm {
+.form-box-sm {
 	width: 380px;
 	height: 155px;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
+	padding-top: 10px;
 }
 
 
@@ -285,15 +287,16 @@ input, textarea {
 }
 .email-text {
 	width: 340px;
-	height: 240px;
+	height: 230px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	margin-bottom: 8px;
+	margin-top: 10px;
 	padding: 10px 15px;
 	font-size: 16px;
 }
 .email-text:focus {
-	outline-color: #81C520; 
+	outline-color: #A0D53C; 
 }
 
 
@@ -362,7 +365,7 @@ input, textarea {
 .checkbox-p {
 	display: inline-block;
 	margin: 0 0 0 15px;
-	color: #ccc;
+	color: #a2a0a0;
 }
 
 
@@ -446,7 +449,7 @@ input, textarea {
 	width: 80px;
 	height: 80px;
 	opacity: 0.2;
-	filter: drop-shadow(-1px -2px #306073);
+	filter: drop-shadow(-1px -2px #000);
 }
 .brand-2-text {
 	font-family: "Baloo Bhai", sans-serif;
@@ -456,26 +459,24 @@ input, textarea {
 	font-size: 50px;
 	margin: 0;
 	letter-spacing: 2px;
-	color: rgba(172, 214, 230, 0.5);
-	text-shadow: -1px -2px 1px rgba(0, 0, 0, 0.4);
+	opacity: 0.3;
 }
 .brand-2-text-p {
 	margin: 0;
 	font-size: 25px;
 	line-height: 15px;
-	color: rgba(172, 214, 230, 0.5);
-	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+	opacity: 0.2;
+	
 }
 .adress-2-sm {
 	margin: 0;
 	font-size: 10px;
 	line-height: 10px;
-	color: #8DBACD;
+	opacity: 0.2;
 }
 .adress-lg {
-	color: #8DBACD;
 	font-size: 30px;
-	opacity: 0.7;
+	opacity: 0.2;
 	font-family: "Baloo Bhai", sans-serif;
 	margin: 20px 0 0;
 	font-weight: normal;
@@ -545,12 +546,12 @@ input, textarea {
 
 	/* boards */
 
-	[class*="shadow"] {
+	[class*="form-shadow"] {
 		margin-left: 5px;
 		margin-right: 5px;
 		width: 340px;
 	}
-	[class*="board"] {
+	[class*="form-box"] {
 		width: 300px;
 	}
 
@@ -566,6 +567,7 @@ input, textarea {
 	}
 	.email-text {
 		width: 260px;
+		font-size: 14px;
 	}
 
 
@@ -614,7 +616,7 @@ input, textarea {
 	/* brand 2 */
 
 	.brand-2 {
-		margin: 50px 5px 15px;
+		margin: 50px 5px 50px;
 		width: 340px;
 	}
 	.shadow-2-img,
@@ -635,5 +637,96 @@ input, textarea {
 	.adress-lg {
 		width: 100%;
 		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.col-md-12 {
+		width: 100%;
+	}
+	.shadow-1-img {
+		margin-left: 5px;
+	}
+	.first-col {
+		align-items: center;
+	}
+	.second-col {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	[class*="form-head"] {
+		margin-left: 0;
+		margin-right: 0;
+		width: 440px;
+		
+	}
+	[class*="form-shadow"] {
+		margin-left: 0;
+		margin-right: 0;
+		width: 440px;		
+	}
+	[class*="form-box"] {
+		width: 400px;
+	}
+	.form-shadow-xl {
+		height: 555px;
+	}
+	.form-box-xl {
+		height: 515px;
+	}
+	.form-shadow-lg {
+		height: 478px;
+	}
+	.form-box-lg {
+		height: 438px;
+	}
+	.form-shadow-md {
+		height: 275px;
+	}
+	.form-box-md {
+		height: 235px;
+	}
+	.form-shadow-sm {
+		height: 215px;
+	}
+	.form-box-sm {
+		height: 175px;
+	}
+
+	.input-border {
+		width: 360px;
+		height: 42px;
+	}
+	.input-content {
+		font-size: 19px;
+	}
+	.email-text {
+		width: 360px;
+		font-size: 19px;
+	}
+
+	.checkbox-p {
+		font-size: 17px;
+	}
+
+	.btn-lg {
+		width: 360px;
+		font-size: 24px;
+	}
+	[class*="btn-sm"] {
+		width: 160px;
+		font-size: 20px;
+		height: 45px;
+	}
+	.btn-sm-1 {
+		font-size: 24px;
+	}
+
+	.brand-2 {
+		margin-bottom: 50px;
 	}
 }
