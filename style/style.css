@@ -335,7 +335,8 @@ button, input, textarea {
 	border-color: #A0D53C;
 }
 .email-text:focus {
-	outline-color: #A0D53C; 
+	outline: none; 
+	border: 2px solid #A0D53C;
 }
 
 
