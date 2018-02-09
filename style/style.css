@@ -523,6 +523,7 @@ button, input, textarea {
 		line-height: 5px;
 	}
 	.adress-1-sm {
+		font-size: 6.5px;
 		line-height: 15px;
 	}
 
@@ -632,21 +633,23 @@ button, input, textarea {
 	}
 	.shadow-2-img,
 	.brand-2-img {
-		width: 80px;
-		height: 80px;
-	}
-	.brand-2-text {
-		margin-left: 10px;
+		width: 70px;
+		height: 70px;
 	}
 	.brand-2-text-head {
 		font-size: 35px;
+		line-height: 36px;
 	}
-	.bramd-2-text-p {
+	.brand-2-text-p {
 		font-size: 18px;
-		line-height: 6px;
+		line-height: 5px;
+	}
+	.adress-2-sm {
+		font-size: 6px;
 	}
 	.adress-lg {
 		text-align: center;
+		font-size: 23px;
 	}
 }
 
