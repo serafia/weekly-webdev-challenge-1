@@ -646,6 +646,7 @@ button, input, textarea {
 	}
 	.adress-2-sm {
 		font-size: 6px;
+		line-height: 13px;
 	}
 	.adress-lg {
 		text-align: center;
