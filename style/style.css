@@ -544,7 +544,7 @@ button, input, textarea {
 
 
 
-	/* boards */
+	/* forms */
 
 	[class*="form-shadow"] {
 		margin-left: 5px;
@@ -573,7 +573,7 @@ button, input, textarea {
 
 
 
-	/* checkbox */
+	/* checkboxes */
 
 	[class*="btn-checkbox"] {
 		width: 20px;
@@ -616,7 +616,7 @@ button, input, textarea {
 	/* brand 2 */
 
 	.brand-2 {
-		margin: 50px 5px 50px;
+		margin: 50px 5px;
 		width: 340px;
 	}
 	.shadow-2-img,
@@ -641,12 +641,26 @@ button, input, textarea {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+	
+	/* grid */
+
 	.col-md-12 {
 		width: 100%;
 	}
+
+
+
+
+	/* brand 1 */
+
 	.shadow-1-img {
 		margin-left: 5px;
 	}
+
+
+
+	/* cols */
+
 	.first-col {
 		align-items: center;
 	}
@@ -658,12 +672,22 @@ button, input, textarea {
 		padding-top: 0;
 	}
 
+
+
+
+	/* form heads */
+
 	[class*="form-head"] {
 		margin-left: 0;
 		margin-right: 0;
 		width: 440px;
 		
 	}
+
+
+
+	/* forms */
+
 	[class*="form-shadow"] {
 		margin-left: 0;
 		margin-right: 0;
@@ -697,6 +721,11 @@ button, input, textarea {
 		height: 175px;
 	}
 
+
+
+
+	/* inputs */
+
 	.input-border {
 		width: 360px;
 		height: 42px;
@@ -709,9 +738,20 @@ button, input, textarea {
 		font-size: 19px;
 	}
 
+
+
+
+
+	/* checkboxes */
+
 	.checkbox-p {
 		font-size: 17px;
 	}
+
+
+
+
+	/* buttons */
 
 	.btn-lg {
 		width: 360px;
@@ -724,9 +764,5 @@ button, input, textarea {
 	}
 	.btn-sm-1 {
 		font-size: 24px;
-	}
-
-	.brand-2 {
-		margin-bottom: 50px;
 	}
 }
