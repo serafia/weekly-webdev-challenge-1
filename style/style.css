@@ -413,6 +413,7 @@ button, input, textarea {
 }
 .checkbox-p {
 	display: inline-block;
+	font-size: 15.8px;
 	margin: 0 0 0 15px;
 	color: #a2a0a0;
 }
