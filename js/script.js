@@ -14,20 +14,11 @@ function equalPasswords() {
 		return true;
 	} else {		
 		$('.equal-passwords-p').fadeIn(500);
-		return false;
-	}
-}
-$('#terms').click(function() {
-	if($('#password').val() === $('#confirmPassword').val()) {
-		$('.equal-passwords-p').fadeOut(500);
-		return true;
-	} else {		
-		$('.equal-passwords-p').fadeIn(500);
 		$('#password').focus();
 		return false;
 	}
-	
-});
+}
+$('#terms').click(equalPasswords);
 	
 	
 		
