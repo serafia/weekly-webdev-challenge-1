@@ -42,13 +42,15 @@
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-lock" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="password" name="password" placeholder="Password" required>
+								<input class="input-content" id="password" type="password" name="password" placeholder="Password" oninput="equalPasswords()" required>
+								<p class="equal-passwords-p">Podane hasła nie są takie same.</p>
 							</div>
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-lock" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="password" name="confirm-password" placeholder="Confirm Password" required>
-							</div>
+								<input class="input-content" id="confirmPassword" type="password" name="confirm-password" placeholder="Confirm Password" oninput="equalPasswords()" required >
+								<p class="equal-passwords-p">Podane hasła nie są takie same.</p>
+							</div>							
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-envelope" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
@@ -68,11 +70,11 @@
 							</datalist>
 							<div class="checkbox">
 								<input type="checkbox" name="terms-of-use" id="checkbox-input-1" class="checkbox-input checkbox-input-1" required>
-								<label for="checkbox-input-1" class="btn-checkbox btn-checkbox-1" >
+								<label for="checkbox-input-1" class="btn-checkbox btn-checkbox-1">
 								</label>
 								<p class="checkbox-p">I have read and accept the terms of use.</p>
 							</div>							
-							<input class="btn btn-lg" type="submit" value="Sign up">
+							<input id="terms" class="btn btn-lg" type="submit" value="Sign up">
 						</form>
 					</div>
 				</div>
@@ -151,10 +153,11 @@
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-mobile" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" type="tel" name="phone-number" placeholder="Enter your Phone number" required>
+								<input class="input-content" id="phone" type="tel" name="phone" placeholder="Enter your Phone number" oninput="phonenumber()" required>
+								<p class="valid-number-p">Nieprawidłowy numer.</p>
 							</div>
 							<div class="btn-group">
-								<input class="btn btn-sm" type="submit" value="Send">
+								<input id="recover" class="btn btn-sm" type="submit" value="Send">
 								<input class="btn btn-sm btn-sm-light" type="submit" value="Done" disabled>
 							</div>
 						</form>
