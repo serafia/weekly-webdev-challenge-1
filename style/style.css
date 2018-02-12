@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
 
 
@@ -21,7 +21,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	overflow-x: hidden;
 }
-button, input, textarea {
+button, input, select, textarea {
 	font-family: "Open Sans", sans-serif;
 }
 * {
@@ -292,7 +292,7 @@ button, input, textarea {
 .input-content {
 	border: none;
 	margin-right: 10px;
-	margin-left: 15px;
+	margin-left: 18px;
 	font-size: 16px;
 	opacity: 0.8;
 	width: 80%;
@@ -309,6 +309,11 @@ button, input, textarea {
 	position: absolute;
 	bottom: -15px;
 	left: 0;
+}
+.input-content-location {
+	opacity: 0.5;
+	cursor: pointer;
+	margin-left: 15px;
 }
 .email-text {
 	width: 340px;
