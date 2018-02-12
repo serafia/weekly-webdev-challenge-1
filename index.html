@@ -59,15 +59,16 @@
 							<div class="input-border">
 								<p class="input-img"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
 								<span class="input-line"></span>
-								<input class="input-content" list="location" name="your-location" placeholder="Your Location" required>
+								<select name="location" class="input-content input-content-location" placeholder="Your Location" required>
+									<option value="Your Location">Your Location</option>
+									<option value="Poznań">Poznań</option>
+									<option value="Warszawa">Warszawa</option>
+									<option value="Białystok">Białystok</option>
+									<option value="Wrocław">Wrocław</option>
+									<option value="Katowice">Katowice</option>
+								</select>
 							</div>
-							<datalist id="location">
-								<option>Poznań</option>
-								<option>Warszawa</option>
-								<option>Białystok</option>
-								<option>Wrocław</option>
-								<option>Katowice</option>
-							</datalist>
+							
 							<div class="checkbox">
 								<input type="checkbox" name="terms-of-use" id="checkbox-input-1" class="checkbox-input checkbox-input-1" required>
 								<label for="checkbox-input-1" class="btn-checkbox btn-checkbox-1">
