@@ -269,6 +269,7 @@ button, input, textarea {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;	
+	position: relative;
 }
 .active {
 	border: 2px solid #A0D53C; 
@@ -298,6 +299,16 @@ button, input, textarea {
 }
 .input-content:focus {
 	outline: none;
+}
+.equal-passwords-p,
+.valid-number-p {
+	display: none;
+	font-size: 10px;
+	color: red;
+	margin: 0;
+	position: absolute;
+	bottom: -15px;
+	left: 0;
 }
 .email-text {
 	width: 340px;
@@ -346,9 +357,13 @@ button, input, textarea {
 	    -ms-flex-align: center;
 	        align-items: center;
 	margin-bottom: 10px;
+	position: relative;
 }
 .checkbox-input {
-	display: none;
+	color: #fff;
+	background-color: #fff;
+	border-color: #fff;
+	z-index: -3;
 }
 .checkbox-input-1:not(:checked) ~.btn-checkbox-1:after {
 	display: none;
@@ -374,8 +389,10 @@ button, input, textarea {
 	padding: 0;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	position: relative;
-	cursor: pointer;	
+	position: absolute;
+	cursor: pointer;
+	bottom: -1px;
+	left: 0;	
 }
 .btn-checkbox:hover {
 	border-color: #A0D53C;
