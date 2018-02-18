@@ -324,6 +324,7 @@ button, input, select, textarea {
 	padding: 10px 15px;
 	font-size: 16px;
 	opacity: 0.8;
+	resize: none;
 }
 .email-text:hover {
 	border-color: #A0D53C;
