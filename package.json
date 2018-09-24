@@ -16,14 +16,17 @@
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.4",
+    "debug": "^4.0.1",
     "glob-run": "^0.1.6",
     "hoek": "^5.0.3",
     "html-validator-cli": "^3.2.0",
+    "lodash": "^4.17.11",
     "nu-html-checker": "^0.1.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2",
     "rimraf": "^2.6.2",
     "sudo": "^1.0.3",
+    "superagent": "^4.0.0-beta.5",
     "vnu-jar": "^17.12.28"
   }
 }
